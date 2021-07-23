@@ -4,10 +4,7 @@ again='y'
 while again.lower()=='y':   
     ranchoice=random.randint(1,6)
     print('Here is Your Result:',ranchoice)
-    again=input('Do you want to continue?(y/n):')
-    if again.lower() !='y' and again.lower()!='n':
-        print('\nInvalid input!Exiting The game..')
-        break
+    again=input('Type y to continue or anything else to quit: ')
 print('''\n**Thank You For Playing Dice Simulator**
 This Game was made by Suryashish Guha From ACE STUDIOS.
 Please Give us Your Feedback at suryashish2005@gmail.com
